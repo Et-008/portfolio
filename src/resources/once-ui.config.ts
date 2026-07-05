@@ -14,14 +14,14 @@ import {
 import { home } from "./index";
 
 // IMPORTANT: Replace with your own domain address - it's used for SEO in meta tags and schema
-const baseURL: string = "https://demo.magic-portfolio.com";
+const baseURL: string = "https://et-008.in";
 
 const routes: RoutesConfig = {
   "/": true,
   "/about": true,
-  "/work": true,
+  // "/work": true,
   "/blog": true,
-  "/gallery": true,
+  // "/gallery": true,
 };
 
 const display: DisplayConfig = {
@@ -187,16 +187,16 @@ const mailchimp: MailchimpConfig = {
 // default schema data
 const schema: SchemaConfig = {
   logo: "",
-  type: "Organization",
-  name: "Once UI",
+  type: "Individual",
+  name: "Arun elanthamil",
   description: home.description,
-  email: "lorant@once-ui.com",
+  email: "arunet008@gmail.com",
 };
 
 // social links
 const sameAs: SameAsConfig = {
-  threads: "https://www.threads.com/@once_ui",
-  linkedin: "https://www.linkedin.com/company/once-ui/",
+  threads: "https://x.com/et_arun",
+  linkedin: "https://www.linkedin.com/in/arun-elanthamil-801663133",
   discord: "https://discord.com/invite/5EyAQ4eNdS",
 };
 
