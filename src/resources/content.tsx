@@ -102,9 +102,8 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        I turn complex product challenges into clean, accessible web applications.
-        <br />
-        I sit right at the intersection of design and technology, focusing on writing elegant code that delivers fast, intuitive user experiences.
+        I specialize in turning complex product challenges into clean, accessible web applications.
+        Right at the intersection of design and technology, focusing on writing elegant code that delivers fast, intuitive user experiences.
       </>
     ),
   },
@@ -117,13 +116,13 @@ const about: About = {
         timeframe: "2021 - Present",
         role: "Senior Frontend developer",
         achievements: [
-          <>Led frontend development for PSA modules (invoicing, ticketing, projects) used by 1,000+ MSPs.</>,
-          <>Led and mentored a 2-member frontend team, overseeing code reviews and sprint goal alignment.</>,
-          <>Built a company-wide design system, accelerating new feature development by 40%.</>,
+          <>Led frontend development for PSA modules (invoicing, ticketing, projects) used by MSPs globally.</>,
+          <>Led and mentored frontend team, overseeing code reviews and sprint goal alignment.</>,
+          <>Worked on a orginisation-wide design system, accelerating new feature development by 40%.</>,
           <>Worked with design team to standardize design tokens and UI components, for a seamless, consistent, AI-driven UI development.</>,
-          <>Built a multi-agent AI system that automates root-cause analysis, reducing developer effort for issue fixes.</>,
           <>Refactored frontend codebase to boost Lighthouse performance scores by 45%.</>,
           <>Used WebSockets to implement live ticketing collaboration, background email sync, and real-time payment updates.</>,
+          <>Built a AI native - Incident response extension, reducing support team and dev team effort for issue analysis and issue fixes.</>,
           // <>
           //   Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
           //   engagement and 30% faster load times.

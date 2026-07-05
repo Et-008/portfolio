@@ -27,6 +27,13 @@ const nextConfig = {
     compiler: "modern",
     silenceDeprecations: ["legacy-js-api"],
   },
+  experimental: {
+    optimizePackageImports: [
+      "@once-ui-system/core",
+      "react-icons",
+      "recharts",
+    ],
+  },
 };
 
 export default withMDX(nextConfig);
