@@ -15,6 +15,7 @@ import { home, about, person, baseURL, routes } from "@/resources";
 import { Mailchimp } from "@/components";
 import { Projects } from "@/components/work/Projects";
 import { Posts } from "@/components/blog/Posts";
+import { redirect } from "next/navigation";
 
 export async function generateMetadata() {
   return Meta.generate({
@@ -27,6 +28,7 @@ export async function generateMetadata() {
 }
 
 export default function Home() {
+  redirect('/about')
   return (
     <Column maxWidth="m" gap="xl" paddingY="12" horizontal="center">
       <Schema

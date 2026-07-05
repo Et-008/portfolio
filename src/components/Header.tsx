@@ -109,7 +109,7 @@ export const Header = () => {
                   </Row>
                 </>
               )}
-              {routes["/work"] && (
+              {/* {routes["/work"] && (
                 <>
                   <Row s={{ hide: true }}>
                     <ToggleButton
@@ -127,7 +127,7 @@ export const Header = () => {
                     />
                   </Row>
                 </>
-              )}
+              )} */}
               {routes["/blog"] && (
                 <>
                   <Row s={{ hide: true }}>
@@ -147,7 +147,7 @@ export const Header = () => {
                   </Row>
                 </>
               )}
-              {routes["/gallery"] && (
+              {/* {routes["/gallery"] && (
                 <>
                   <Row s={{ hide: true }}>
                     <ToggleButton
@@ -165,7 +165,7 @@ export const Header = () => {
                     />
                   </Row>
                 </>
-              )}
+              )} */}
               {display.themeSwitcher && (
                 <>
                   <Line background="neutral-alpha-medium" vert maxHeight="24" />

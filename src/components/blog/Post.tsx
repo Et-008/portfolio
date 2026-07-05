@@ -25,14 +25,14 @@ export default function Post({ post, thumbnail, direction }: PostProps) {
       gap={direction === "column" ? undefined : "24"}
       s={{ direction: "column" }}
     >
-      {post.metadata.image && thumbnail && (
+      {post.metadata.thumbnailImage && thumbnail && (
         <Media
           priority
           sizes="(max-width: 768px) 100vw, 640px"
           border="neutral-alpha-weak"
           cursor="interactive"
           radius="l"
-          src={post.metadata.image}
+          src={post.metadata.thumbnailImage}
           alt={"Thumbnail of " + post.metadata.title}
           aspectRatio="16 / 9"
         />

@@ -1,15 +1,15 @@
-import { About, Blog, Gallery, Home, Newsletter, Person, Social, Work } from "@/types";
+import type { About, Blog, Gallery, Home, Newsletter, Person, Social, Work } from "@/types";
 import { Line, Row, Text } from "@once-ui-system/core";
 
 const person: Person = {
-  firstName: "Selene",
-  lastName: "Yu",
-  name: `Selene Yu`,
-  role: "Design Engineer",
-  avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  firstName: "Arun",
+  lastName: "Et",
+  name: 'Arun Et',
+  role: "Software Engineer | Interface Builder | Performance Optimizer",
+  avatar: "/images/avatar.webp",
+  email: "arunet008@gmail.com",
+  location: "Asia/Kolkata", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English", "Tamil", "Hindi"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter: Newsletter = {
@@ -25,25 +25,25 @@ const social: Social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system",
+    link: "https://github.com/Et-008",
     essential: true,
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/arun-elanthamil-801663133/",
     essential: true,
   },
   {
     name: "Instagram",
     icon: "instagram",
-    link: "https://www.instagram.com/once_ui/",
+    link: "https://www.instagram.com/arun_elanthamil",
     essential: false,
   },
   {
-    name: "Threads",
-    icon: "threads",
-    link: "https://www.threads.com/@once_ui",
+    name: "X",
+    icon: "x",
+    link: "https://x.com/et_arun",
     essential: true,
   },
   {
@@ -56,7 +56,7 @@ const social: Social = [
 
 const home: Home = {
   path: "/",
-  image: "/images/og/home.jpg",
+  image: "/images/og/home.png",
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
@@ -65,7 +65,7 @@ const home: Home = {
     display: true,
     title: (
       <Row gap="12" vertical="center">
-        <strong className="ml-4">Once UI</strong>{" "}
+        <strong className="ml-4">Zorb UI</strong>{" "}
         <Line background="brand-alpha-strong" vert height="20" />
         <Text marginRight="4" onBackground="brand-medium">
           Featured work
@@ -76,15 +76,15 @@ const home: Home = {
   },
   subline: (
     <>
-    I'm Selene, a design engineer at <Text as="span" size="xl" weight="strong">ONCE UI</Text>, where I craft intuitive <br /> user experiences. After hours, I build my own projects.
-</>
+      I'm Arun, a <Text as="span" size="xl" weight="strong">senior software engineer</Text> by profession, I craft intuitive <br /> user experiences. After work, I build my own projects.
+    </>
   ),
 };
 
 const about: About = {
   path: "/about",
   label: "About",
-  title: `About – ${person.name}`,
+  title: `About - ${person.name}`,
   description: `Meet ${person.name}, ${person.role} from ${person.location}`,
   tableOfContent: {
     display: true,
@@ -95,16 +95,16 @@ const about: About = {
   },
   calendar: {
     display: true,
-    link: "https://cal.com",
+    link: "https://cal.com/arun-et-5erxoc/quick-chat",
   },
   intro: {
     display: true,
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        I turn complex product challenges into clean, accessible web applications.
+        <br />
+        I sit right at the intersection of design and technology, focusing on writing elegant code that delivers fast, intuitive user experiences.
       </>
     ),
   },
@@ -113,23 +113,36 @@ const about: About = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Superops.ai",
+        timeframe: "2021 - Present",
+        role: "Senior Frontend developer",
         achievements: [
-          <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
-          </>,
-          <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
-          </>,
+          <>Led frontend development for PSA modules (invoicing, ticketing, projects) used by 1,000+ MSPs.</>,
+          <>Led and mentored a 2-member frontend team, overseeing code reviews and sprint goal alignment.</>,
+          <>Built a company-wide design system, accelerating new feature development by 40%.</>,
+          <>Worked with design team to standardize design tokens and UI components, for a seamless, consistent, AI-driven UI development.</>,
+          <>Built a multi-agent AI system that automates root-cause analysis, reducing developer effort for issue fixes.</>,
+          <>Refactored frontend codebase to boost Lighthouse performance scores by 45%.</>,
+          <>Used WebSockets to implement live ticketing collaboration, background email sync, and real-time payment updates.</>,
+          // <>
+          //   Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
+          //   engagement and 30% faster load times.
+          // </>,
+          // <>
+          //   Spearheaded the integration of AI tools into design workflows, enabling designers to
+          //   iterate 50% faster.
+          // </>,
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
           {
-            src: "/images/projects/project-01/cover-01.jpg",
+            src: "/images/projects/project-01/cover-01.png",
+            alt: "Once UI Project",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "/images/projects/project-01/cover-001.png",
             alt: "Once UI Project",
             width: 16,
             height: 9,
@@ -137,18 +150,22 @@ const about: About = {
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Cognizant technologies",
+        timeframe: "2018 - 2021",
+        role: "Junior developer",
         achievements: [
-          <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
-          </>,
-          <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
-          </>,
+          <>Enhanced Cognizant Learn platform using React and Redux, ensuring reliable performance for enterprise users.</>,
+          <>Maintained ServiceNow websites, resolving high-priority bugs to ensure platform stability.</>,
+          <>Improved frontend components via HTML, CSS, Bootstrap, and jQuery to eliminate UI inconsistencies.</>,
+          <>Collaborated in 10+ member Agile teams, consistently meeting deadlines and delivering quality code.</>,
+          // <>
+          //   Developed a design system that unified the brand across multiple platforms, improving
+          //   design consistency by 40%.
+          // </>,
+          // <>
+          //   Led a cross-functional team to launch a new product line, contributing to a 15% increase
+          //   in overall company revenue.
+          // </>,
         ],
         images: [],
       },
@@ -159,12 +176,12 @@ const about: About = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "DMI college of engineering",
+        description: <>Studied civil engineering.</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Youtube",
+        description: <>Self taught Software engineer.</>,
       },
     ],
   },
@@ -173,26 +190,63 @@ const about: About = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
+        title: "WHYChoose?",
         description: (
-          <>Able to prototype in Figma with Once UI with unnatural speed.</>
+          <>Indexed Insurance policies into HNSW vector embeddings.</>
         ),
+        url: "https://chooseinsurance.netlify.app/",
         tags: [
           {
-            name: "Figma",
-            icon: "figma",
+            name: "Python",
+            icon: "python",
           },
+          {
+            name: "LlamaIndex",
+            icon: "llama",
+          },
+          {
+            name: "HF",
+            icon: "hf",
+          },
+          {
+            name: "Docker",
+            icon: "docker",
+          },
+          {
+            name: "EC2",
+            icon: "awsecc",
+          },
+          {
+            name: 'Chroma DB',
+            icon: 'chromadb'
+          },
+          {
+            name: 'Colab',
+            icon: 'colab'
+          }
         ],
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/cover-02.jpg",
+            src: "/images/projects/zorb/image-02.png",
             alt: "Project image",
             width: 16,
             height: 9,
           },
           {
-            src: "/images/projects/project-01/cover-03.jpg",
+            src: "/images/projects/zorb/image-01.png",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "/images/projects/zorb/image-04.png",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "/images/projects/zorb/image-03.png",
             alt: "Project image",
             width: 16,
             height: 9,
@@ -200,10 +254,71 @@ const about: About = {
         ],
       },
       {
-        title: "Next.js",
+        title: "Patchy",
         description: (
-          <>Building next gen apps with Next.js + Once UI + Supabase.</>
+          <>Built a AI native - Incident response extension.</>
         ),
+        url: "https://chromewebstore.google.com/detail/patchy-ai-ready-incident/nbhnpnhknhjnhjjiidbikgnoofgndhgh?pli=1",
+        tags: [
+          {
+            name: "React",
+            icon: "react",
+          },
+          {
+            name: "Express",
+            icon: "expressjs",
+          },
+          {
+            name: "Claude API",
+            icon: "claude",
+          },
+          {
+            name: "Slack API",
+            icon: "slack",
+          },
+          {
+            name: "Next.js",
+            icon: "nextjs",
+          },
+          {
+            name: 'Chrome extension',
+            icon: 'extension'
+          }
+        ],
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          {
+            src: "/images/projects/patchy/image-02.png",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "/images/projects/patchy/image-01.png",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "/images/projects/patchy/image-03.png",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "/images/projects/patchy/image-04.png",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      {
+        title: "Lang Q",
+        description: (
+          <>Built a language translation Saas.</>
+        ),
+        url: "https://lang-q.com/",
         tags: [
           {
             name: "JavaScript",
@@ -214,6 +329,14 @@ const about: About = {
             icon: "nextjs",
           },
           {
+            name: 'CRA',
+            icon: 'react'
+          },
+          {
+            name: 'Gemini',
+            icon: 'google'
+          },
+          {
             name: "Supabase",
             icon: "supabase",
           },
@@ -221,7 +344,19 @@ const about: About = {
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/cover-04.jpg",
+            src: "/images/projects/langQ/image-01.png",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "/images/projects/langQ/image-02.png",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "/images/projects/langQ/image-03.png",
             alt: "Project image",
             width: 16,
             height: 9,
@@ -235,7 +370,7 @@ const about: About = {
 const blog: Blog = {
   path: "/blog",
   label: "Blog",
-  title: "Writing about design and tech...",
+  title: "Deep dives into design systems, code, and cutting-edge tech.",
   description: `Read what ${person.name} has been up to recently`,
   // Create new blog posts by adding a new .mdx file to app/blog/posts
   // All posts will be listed on the /blog route
@@ -244,7 +379,7 @@ const blog: Blog = {
 const work: Work = {
   path: "/work",
   label: "Work",
-  title: `Projects – ${person.name}`,
+  title: `Projects - ${person.name}`,
   description: `Design and dev projects by ${person.name}`,
   // Create new project pages by adding a new .mdx file to app/blog/posts
   // All projects will be listed on the /home and /work routes
