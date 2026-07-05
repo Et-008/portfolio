@@ -113,7 +113,7 @@ const about: About = {
     experiences: [
       {
         company: "Superops.ai",
-        timeframe: "2021 - Present",
+        timeframe: "5 years",
         role: "Senior Frontend developer",
         achievements: [
           <>Led frontend development for PSA modules (invoicing, ticketing, projects) used by MSPs globally.</>,
@@ -150,7 +150,7 @@ const about: About = {
       },
       {
         company: "Cognizant technologies",
-        timeframe: "2018 - 2021",
+        timeframe: "3 years",
         role: "Junior developer",
         achievements: [
           <>Enhanced Cognizant Learn platform using React and Redux, ensuring reliable performance for enterprise users.</>,
