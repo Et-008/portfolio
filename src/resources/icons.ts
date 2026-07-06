@@ -31,7 +31,6 @@ import {
   SiReact,
   SiClaude,
   SiExpress,
-  SiSlack,
   SiChromewebstore,
   SiPython,
   SiDocker,
@@ -39,11 +38,15 @@ import {
   SiHuggingface,
   SiChromatic,
   SiFastapi,
-  SiGooglecolab
+  SiGooglecolab,
+  SiQdrant,
+  SiRender,
+  SiHostinger
 } from "react-icons/si";
 
 import { FaDiscord, FaGithub, FaLinkedin, FaX, FaThreads, FaInstagram, FaXTwitter, FaFacebook, FaPinterest, FaWhatsapp, FaReddit, FaTelegram, } from "react-icons/fa6";
 import { DiAws } from "react-icons/di";
+import { FaSlack } from "react-icons/fa";
 
 export const iconLibrary: Record<string, IconType> = {
   arrowUpRight: HiArrowUpRight,
@@ -82,7 +85,7 @@ export const iconLibrary: Record<string, IconType> = {
   google: SiGooglegemini,
   claude: SiClaude,
   expressjs: SiExpress,
-  slack: SiSlack,
+  slack: FaSlack,
   extension: SiChromewebstore,
   python: SiPython,
   docker: SiDocker,
@@ -91,7 +94,10 @@ export const iconLibrary: Record<string, IconType> = {
   hf: SiHuggingface,
   chromadb: SiChromatic,
   fastapi: SiFastapi,
-  colab: SiGooglecolab
+  colab: SiGooglecolab,
+  qdrant: SiQdrant,
+  render: SiRender,
+  hostinger: SiHostinger
 };
 
 export type IconLibrary = typeof iconLibrary;

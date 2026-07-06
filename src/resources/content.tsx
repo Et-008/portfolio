@@ -193,8 +193,12 @@ const about: About = {
         description: (
           <>Indexed Insurance policies into HNSW vector embeddings.</>
         ),
-        url: "https://chooseinsurance.netlify.app/",
+        url: "https://chooseinsurance.et-008.in/",
         tags: [
+          {
+            name: "Next.js",
+            icon: "nextjs",
+          },
           {
             name: "Python",
             icon: "python",
@@ -206,6 +210,10 @@ const about: About = {
           {
             name: "HF",
             icon: "hf",
+          },
+          {
+            name: 'Qdrant',
+            icon: 'qdrant'
           },
           {
             name: "Docker",
@@ -222,7 +230,15 @@ const about: About = {
           {
             name: 'Colab',
             icon: 'colab'
-          }
+          },
+          {
+            name: 'Render',
+            icon: 'render'
+          },
+          {
+            name: "Mega",
+            icon: "mega",
+          },
         ],
         // optional: leave the array empty if you don't want to display images
         images: [
@@ -264,6 +280,10 @@ const about: About = {
             icon: "react",
           },
           {
+            name: "Javascript",
+            icon: "javascript",
+          },
+          {
             name: "Express",
             icon: "expressjs",
           },
@@ -282,7 +302,11 @@ const about: About = {
           {
             name: 'Chrome extension',
             icon: 'extension'
-          }
+          },
+          {
+            name: "Hostinger",
+            icon: "hostinger",
+          },
         ],
         // optional: leave the array empty if you don't want to display images
         images: [
@@ -338,6 +362,10 @@ const about: About = {
           {
             name: "Supabase",
             icon: "supabase",
+          },
+          {
+            name: "Hostinger",
+            icon: "hostinger",
           },
         ],
         // optional: leave the array empty if you don't want to display images

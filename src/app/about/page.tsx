@@ -218,7 +218,7 @@ export default function About() {
                 {about.technical.skills.map((skill, index) => (
                   <Column key={`${skill}-${index}`} fillWidth gap="4">
                     <Text id={skill.title} variant="heading-strong-l">
-                      {skill.url ? <Link target="_blank" href={skill.url} className="color-black!" style={{color: "black"}}>
+                      {skill.url ? <Link target="_blank" href={skill.url} >
                       {skill.title}
                       <LuExternalLink className="ml-4" size={12} />
                       </Link>: skill.title}
