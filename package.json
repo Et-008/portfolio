@@ -3,7 +3,7 @@
   "version": "2.3.0",
   "scripts": {
     "dev": "next dev",
-    "export": "next export",
+    "prebuild": "node scripts/generate-rss.mjs && node scripts/generate-og-images.mjs",
     "build": "next build",
     "biome-write": "npx @biomejs/biome format --write .",
     "start": "next start",
