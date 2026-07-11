@@ -36,9 +36,6 @@ const nextConfig = {
       "recharts",
     ],
   },
-  async redirects() {
-    return [{ source: "/", destination: "/about", permanent: true }];
-  },
 };
 
 export default withMDX(nextConfig);

@@ -95,16 +95,16 @@ export const Header = () => {
                   <Row s={{ hide: true }}>
                     <ToggleButton
                       prefixIcon="person"
-                      href="/about"
+                      href="/"
                       label={about.label}
-                      selected={pathname === "/about"}
+                      selected={pathname === "/"}
                     />
                   </Row>
                   <Row hide s={{ hide: false }}>
                     <ToggleButton
                       prefixIcon="person"
-                      href="/about"
-                      selected={pathname === "/about"}
+                      href="/"
+                      selected={pathname === "/"}
                     />
                   </Row>
                 </>
