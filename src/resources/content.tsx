@@ -56,7 +56,7 @@ const social: Social = [
 
 const home: Home = {
   path: "/",
-  image: "/images/og/home.png",
+  image: "/images/og/home.webp",
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
@@ -135,13 +135,13 @@ const about: About = {
         images: [
           // optional: leave the array empty if you don't want to display images
           {
-            src: "/images/projects/project-01/cover-01.png",
+            src: "/images/projects/project-01/cover-01.webp",
             alt: "Once UI Project",
             width: 16,
             height: 9,
           },
           {
-            src: "/images/projects/project-01/cover-001.png",
+            src: "/images/projects/project-01/cover-001.webp",
             alt: "Once UI Project",
             width: 16,
             height: 9,
@@ -243,25 +243,25 @@ const about: About = {
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/zorb/image-02.png",
+            src: "/images/projects/zorb/image-02.webp",
             alt: "Project image",
             width: 16,
             height: 9,
           },
           {
-            src: "/images/projects/zorb/image-01.png",
+            src: "/images/projects/zorb/image-01.webp",
             alt: "Project image",
             width: 16,
             height: 9,
           },
           {
-            src: "/images/projects/zorb/image-04.png",
+            src: "/images/projects/zorb/image-04.webp",
             alt: "Project image",
             width: 16,
             height: 9,
           },
           {
-            src: "/images/projects/zorb/image-03.png",
+            src: "/images/projects/zorb/image-03.webp",
             alt: "Project image",
             width: 16,
             height: 9,
@@ -311,25 +311,25 @@ const about: About = {
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/patchy/image-02.png",
+            src: "/images/projects/patchy/image-02.webp",
             alt: "Project image",
             width: 16,
             height: 9,
           },
           {
-            src: "/images/projects/patchy/image-01.png",
+            src: "/images/projects/patchy/image-01.webp",
             alt: "Project image",
             width: 16,
             height: 9,
           },
           {
-            src: "/images/projects/patchy/image-03.png",
+            src: "/images/projects/patchy/image-03.webp",
             alt: "Project image",
             width: 16,
             height: 9,
           },
           {
-            src: "/images/projects/patchy/image-04.png",
+            src: "/images/projects/patchy/image-04.webp",
             alt: "Project image",
             width: 16,
             height: 9,
@@ -371,19 +371,19 @@ const about: About = {
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/langQ/image-01.png",
+            src: "/images/projects/langQ/image-01.webp",
             alt: "Project image",
             width: 16,
             height: 9,
           },
           {
-            src: "/images/projects/langQ/image-02.png",
+            src: "/images/projects/langQ/image-02.webp",
             alt: "Project image",
             width: 16,
             height: 9,
           },
           {
-            src: "/images/projects/langQ/image-03.png",
+            src: "/images/projects/langQ/image-03.webp",
             alt: "Project image",
             width: 16,
             height: 9,

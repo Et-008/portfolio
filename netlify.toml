@@ -19,6 +19,12 @@
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 
+# This covers all images and videos in any folder (e.g., /images/projects/...)
+[[headers]]
+  for = "/images/**/*.{jpg,png,svg,mp4}"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, stale-while-revalidate"
+
 [[headers]]
   for = "/*.png"
   [headers.values]

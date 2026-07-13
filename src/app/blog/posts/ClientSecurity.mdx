@@ -8,7 +8,7 @@ tags:
   - 'React'
 title: Client side security
 publishedAt: '2023-02-08T14:02:03.284Z'
-thumbnailImage: "/images/blogs/preview.jpg"
+thumbnailImage: "/images/blogs/preview.webp"
 description: 'When you ship your code to production, it is exposed to public access. But you need to ensure that it cannot be vulnerable to any kind of attacks. How to do that?'
 category: 'javascript'
 ---
@@ -25,7 +25,7 @@ There are multiple ways to secure wbsites from attacks.
 Any input given by the user, will be saved in a database and in some cases will be served to other users;
 
 For example consider a comment section, where one person's reply on a post is displayed to other users who see the post. If this comment has some executable script in it, almost anyone who simply visits the page gets attacked.
-![Web security](/images/blogs/preview.jpg)
+![Web security](/images/blogs/preview.webp)
 
 So as a first and most important precaution, all input fields in a site must be sanitized
 
@@ -101,7 +101,7 @@ If I load another image, from the same domain "unsplash.com" it will not be load
 
 If you open, developer tools -> console you could see a error saying "Refused to load the image" because it violates the Content Security Policy
 
-![CSP error in console](/images/blogs/csp-error.png)
+![CSP error in console](/images/blogs/csp-error.webp)
 
     ```jsx
     img-src: 'self' https://images.unsplash.com

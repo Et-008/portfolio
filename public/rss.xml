@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arun Elanthamil</title>
+    <link>https://et-008.in/blog</link>
+    <description>Insights and thoughts</description>
+    <language>en</language>
+    <lastBuildDate>Mon, 13 Jul 2026 05:45:13 GMT</lastBuildDate>
+    <atom:link href="https://et-008.in/rss.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>arunet008@gmail.com (Arun Elanthamil)</managingEditor>
+    <webMaster>arunet008@gmail.com (Arun Elanthamil)</webMaster>
+    <image>
+      <url>https://et-008.in/images/avatar.webp</url>
+      <title>Arun Elanthamil</title>
+      <link>https://et-008.in/blog</link>
+    </image>
+    
+    <item>
+      <title>React fiber object</title>
+      <link>https://et-008.in/blog/ReactFiberObject</link>
+      <guid>https://et-008.in/blog/ReactFiberObject</guid>
+      <pubDate>Thu, 15 Aug 2024 14:02:03 GMT</pubDate>
+      <description><![CDATA[]]></description>
+      
+      
+      <author>arunet008@gmail.com (Arun Elanthamil)</author>
+    </item>
+    <item>
+      <title>Stack memory vs Heap memory</title>
+      <link>https://et-008.in/blog/StackVsHeap</link>
+      <guid>https://et-008.in/blog/StackVsHeap</guid>
+      <pubDate>Fri, 26 Apr 2024 14:02:03 GMT</pubDate>
+      <description><![CDATA[]]></description>
+      <enclosure url="https://et-008.in/images/blogs/stack-heap-gc-animation.mp4" type="image/jpeg" />
+      
+      <author>arunet008@gmail.com (Arun Elanthamil)</author>
+    </item>
+    <item>
+      <title>Client side security</title>
+      <link>https://et-008.in/blog/ClientSecurity</link>
+      <guid>https://et-008.in/blog/ClientSecurity</guid>
+      <pubDate>Wed, 08 Feb 2023 14:02:03 GMT</pubDate>
+      <description><![CDATA[]]></description>
+      
+      
+      <author>arunet008@gmail.com (Arun Elanthamil)</author>
+    </item>
+    <item>
+      <title>Websockets - When and how to use</title>
+      <link>https://et-008.in/blog/Websockets</link>
+      <guid>https://et-008.in/blog/Websockets</guid>
+      <pubDate>Thu, 12 Jan 2023 14:02:03 GMT</pubDate>
+      <description><![CDATA[]]></description>
+      
+      
+      <author>arunet008@gmail.com (Arun Elanthamil)</author>
+    </item>
+    <item>
+      <title>Memory Leak in a React app</title>
+      <link>https://et-008.in/blog/MemoryLeak</link>
+      <guid>https://et-008.in/blog/MemoryLeak</guid>
+      <pubDate>Thu, 10 Mar 2022 22:12:03 GMT</pubDate>
+      <description><![CDATA[]]></description>
+      
+      
+      <author>arunet008@gmail.com (Arun Elanthamil)</author>
+    </item>
+    <item>
+      <title>Gatsby - the go to SSG?</title>
+      <link>https://et-008.in/blog/gatsby</link>
+      <guid>https://et-008.in/blog/gatsby</guid>
+      <pubDate>Tue, 08 Mar 2022 22:12:03 GMT</pubDate>
+      <description><![CDATA[]]></description>
+      
+      
+      <author>arunet008@gmail.com (Arun Elanthamil)</author>
+    </item>
+    <item>
+      <title>The one with the diabetes</title>
+      <link>https://et-008.in/blog/TheOneWithDiabetes</link>
+      <guid>https://et-008.in/blog/TheOneWithDiabetes</guid>
+      <pubDate>Sun, 06 Mar 2022 22:12:03 GMT</pubDate>
+      <description><![CDATA[]]></description>
+      
+      
+      <author>arunet008@gmail.com (Arun Elanthamil)</author>
+    </item>
+  </channel>
+</rss>
